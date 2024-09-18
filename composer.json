@@ -1,10 +1,10 @@
 {
-    "name": "hoangphi/vietnam-maps",
+    "name": "zmap95/vietnam-maps",
     "description": "Vietnam's area database.",
     "type": "library",
     "license": "MIT",
     "keywords": [
-        "hoangphidev",
+        "zmap95",
         "vietnam-maps",
         "vietnam-zone",
         "vietnam-database",
@@ -15,27 +15,27 @@
         "hanhchinhvietnam",
         "hcvn"
     ],
-    "homepage": "https://github.com/hoangphidev/vietnam-maps",
+    "homepage": "https://github.com/zmap95/vietnam-maps",
     "authors": [
         {
-            "name": "Phi Hoang",
-            "email": "hoangphi.dev@gmail.com",
-            "homepage": "https://github.com/hoangphidev/vietnam-maps",
+            "name": "Canh Hoang",
+            "email": "zmap.dev@gmail.com",
+            "homepage": "https://github.com/zmap95/vietnam-maps",
             "role": "Developer"
         }
     ],
     "minimum-stability": "dev",
     "require": {
         "php": "^7.2|^8.0|^8.1",
-        "illuminate/support": "^5.8|^6|^7|^8|^9|^10",
-        "illuminate/database": "^5.8|^6|^7|^8|^9|^10",
-        "illuminate/console": "^5.8|^6|^7|^8|^9|^10",
+        "illuminate/support": "^5.8|^6|^7|^8|^9|^10|^11",
+        "illuminate/database": "^5.8|^6|^7|^8|^9|^10|^11",
+        "illuminate/console": "^5.8|^6|^7|^8|^9|^10|^11",
         "guzzlehttp/guzzle": "^7.0.1",
         "maatwebsite/excel": "^3.1"
     },
     "autoload": {
         "psr-4": {
-            "HoangPhi\\VietnamMap\\": "src/"
+            "Zmap95\\VietnamMap\\": "src/"
         }
     },
     "config": {
@@ -44,7 +44,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "HoangPhi\\VietnamMap\\VietnamMapServiceProvider"
+                "Zmap95\\VietnamMap\\VietnamMapServiceProvider"
             ]
         }
     },

@@ -1,6 +1,6 @@
 <?php
 
-namespace HoangPhi\VietnamMap\Models;
+namespace Zmap95\VietnamMap\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

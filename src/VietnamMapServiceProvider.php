@@ -1,9 +1,9 @@
 <?php
 
-namespace HoangPhi\VietnamMap;
+namespace Zmap95\VietnamMap;
 
-use HoangPhi\VietnamMap\Console\Commands\DownloadCommand;
-use HoangPhi\VietnamMap\Console\Commands\InstallCommand;
+use Zmap95\VietnamMap\Console\Commands\DownloadCommand;
+use Zmap95\VietnamMap\Console\Commands\InstallCommand;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Collection;
 use Illuminate\Support\ServiceProvider;

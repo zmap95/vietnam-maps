@@ -4,13 +4,13 @@ Database of Vietnam's area.
 
 Data are taken directly from the General Statistics Office of Vietnam.
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/hoangphi/vietnam-maps.svg?style=flat-square)](https://packagist.org/packages/hoangphi/vietnam-maps)
-[![Total Downloads](https://img.shields.io/packagist/dt/hoangphi/vietnam-maps.svg?style=flat-square)](https://packagist.org/packages/hoangphi/vietnam-maps)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/zmap95/vietnam-maps.svg?style=flat-square)](https://packagist.org/packages/zmap95/vietnam-maps)
+[![Total Downloads](https://img.shields.io/packagist/dt/zmap95/vietnam-maps.svg?style=flat-square)](https://packagist.org/packages/zmap95/vietnam-maps)
 
 ## Install
 
 ```shell
-composer require hoangphi/vietnam-maps
+composer require zmap95/vietnam-maps
 ```
 
 ## Extracting
@@ -28,7 +28,7 @@ php artisan vietnam-map:install
 #### Copy file config và migration
 
 ```shell
-php artisan vendor:publish --provider="HoangPhi\VietnamMap\VietnamMapServiceProvider"
+php artisan vendor:publish --provider="Zmap95\VietnamMap\VietnamMapServiceProvider"
 ```
 
 #### Customize config và migration
@@ -83,9 +83,9 @@ php artisan vietnam-map:download
 1. Get all provinces, districts, wards
 
 ```php
-    use HoangPhi\VietnamMap\Models\Province;
-    use HoangPhi\VietnamMap\Models\District;
-    use HoangPhi\VietnamMap\Models\Ward;
+    use Zmap95\VietnamMap\Models\Province;
+    use Zmap95\VietnamMap\Models\District;
+    use Zmap95\VietnamMap\Models\Ward;
 
    class DevController extends Controller
    {
@@ -103,7 +103,7 @@ php artisan vietnam-map:download
 2. Get data using relationship
 
 ```php
-    use HoangPhi\VietnamMap\Models\Province;
+    use zmap95\VietnamMap\Models\Province;
 
    class DevController extends Controller
    {
@@ -163,15 +163,6 @@ php artisan vietnam-map:download
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
-
-## Security
-
-If you discover any security-related issues, please email [hoangphidev@gmail.com](mailto:hoangphidev@gmail.com) instead of using the issue tracker.
-
-## Credits
-
-- [Phi Hoang](https://github.com/hoangphidev)
-- [All Contributors](../../contributors)
 
 ## References
 
