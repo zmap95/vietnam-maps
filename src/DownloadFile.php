@@ -6,8 +6,8 @@ use GuzzleHttp\Client;
 
 class DownloadFile
 {
-    const FILE_URL = 'https://github.com/zmap95/vietnam-maps/raw/vietnam-maps/vietnam-maps.xls';
-
+    const FILE_URL = 'https://github.com/zmap95/vietnam-maps/raw/main/raw/vietnam-maps/vietnam-maps.xls';
+    
     public function saveFile()
     {
         $client = new Client([
